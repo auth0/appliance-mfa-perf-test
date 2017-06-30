@@ -259,7 +259,7 @@
               </elementProp>
               <elementProp name="binding_code" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">tuvieja</stringProp>
+                <stringProp name="Argument.value">dummycode</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">binding_code</stringProp>

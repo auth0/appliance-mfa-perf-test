@@ -1,15 +1,18 @@
 var mfadb = db.getSiblingDB('mfa');
 var auth0db = db.getSiblingDB('auth0');
 
+var tenant = "tehsis-tenant-mfa";
+var client_id = "KFjX5nDJT34CWktEU4C-eamqNzC7n6a2";
+
 var user_mfa_orig = {
-	"_id" : "gusr_1Mhn0jzGAbUsVjbB",
+	"_id" : "gusr_GPJLhUAkDokhFhOo",
 	"external_user_id" : "auth0|595293740e6e1143446edff6",
-	"tenant" : "tehsis-tenant-mfa",
+	"tenant" : tenant,
 	"created_at" : ISODate("2017-06-27T17:18:47.971Z")
 }
 
 var device_account_orig = {
-	"tenant" : "tehsis-tenant-mfa",
+	"tenant" : tenant,
 	"user_id" : "gusr_GPJLhUAkDokhFhOo",
 	"enrollment_source_type" : "self_enrollment",
 	"user_id_source" : "internal",
@@ -34,7 +37,7 @@ var device_account_orig = {
 
 var usersMFS_orig = {
 	"__tenant" : "tehsis-tenant-mfa",
-	"clientID" : "IdlBiuEzKhMix7c0XiWCIhKg_SXwP4b-",
+	"clientID" : client_id,
 	"user_id" : "auth0|59517444fbf80a2d1e30202f",
 	"guardian" : {
 		"guardian_user_id" : "gusr_GPJLhUAkDokhFhOo"
